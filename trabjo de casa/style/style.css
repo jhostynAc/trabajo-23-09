@@ -1,0 +1,114 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: cadetblue;
+}
+section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: cover;
+    background-position: center;
+    background-attachment: fixed;
+    padding: 50px; 
+    flex-direction: column;
+}
+nav{
+    height: 60px;
+    width: 100%;
+    background-color: black;
+}
+nav img{
+    float: right;
+    margin-right: 40px;
+    margin-top: 8px;
+    height: 45px;
+    width: 80px;
+}
+.bloque{
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 100px;
+}
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.cuadro {
+    width: 200px;
+    height: 200px;
+    margin-top: 10px;
+    margin-right: 40px;
+    border-radius: 25px;
+    border: 1px solid #000;
+}
+.cuadro:hover{
+    border: 1px solid #fff;
+    color: #fff;
+}
+.cuadro2:hover{
+    border: 1px solid #fff;
+    color: #fff;
+}
+.circulo img:hover{
+    border: 3px solid #fff;
+}
+.cuadros:hover{
+    border: 1px solid #fff;
+    color: #fff;
+}
+.cuadro p{
+    font-size: 18px;
+    margin: 30px;
+}
+.circulo img{
+    height: 200px;
+    width: 200px;
+    border-radius: 100px;
+    border: 1px solid #000;
+}
+.contenido{
+    display: flex;
+    flex-direction: row;
+}
+.cuadros{
+    height: 190px;
+    width: 700px;
+    margin: 25px;
+    border: 1px solid #000;
+    border-radius: 25px;
+}
+.cuadros h1{
+    margin-top: 10px;
+    margin-left: 43%;
+}
+.cuadros p{
+    margin-top: 10px;
+    margin-left: 10px;
+    font-size: 15px;
+}
+.Bandera {
+    margin-right: 80%;
+}
+.cuadro2 {
+    width: 200px;
+    height: 200px;
+    margin-top: 20px;
+    border-radius: 25px;
+    border: 1px solid #000;
+}
+.cuadro2 h1{
+    margin:10px 0 0 20%;
+}
+.cuadro2 ul{
+    margin:20px 0 0 10%;
+}
+footer img{
+    width: 100%;
+    height: 200px;
+    margin-right: 0px;
+}
